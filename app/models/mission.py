@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, Enum as SqlEnum, ForeignKey
 from sqlalchemy.orm import relationship
 from app.core.database import Base
-from app.domain.enums import MissionStatus
+from app.domains.enums import MissionStatus
 
 
 class Mission(Base):

@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Session
 from app.models.mission import Mission
-from app.domain.enums import MissionStatus
-from app.domain.mission_rules import validate_mission_transition
+from app.domains.enums import MissionStatus
+from app.domains.mission_rules import validate_mission_transition
 
 
 class MissionService:

@@ -1,5 +1,5 @@
-from app.domain.enums import MissionStatus
-from app.domain.exceptions import InvalidMissionTransition
+from app.domains.enums import MissionStatus
+from app.domains.exceptions import InvalidMissionTransition
 
 
 ALLOWED_TRANSITIONS = {
